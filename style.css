@@ -19,8 +19,14 @@ header {
     top: 0;
 }
 
+#owl {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+}
 
 nav > a {
+    display: inline-block;
     text-decoration: none;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
@@ -82,6 +88,10 @@ nav > a {
 }
 
 .discover {
+    display: inline-block;
+}
+
+.bigdiv {
     display: inline-block;
 }
 
@@ -149,4 +159,90 @@ nav > a {
     position: absolute;
     top: 1220px;
     left: 1080px;
+}
+
+@media only screen and (max-width: 768px) {
+    #greece {
+        width: 1850px;
+    }
+
+    .absolute1 {
+        width: 700px;
+        left: 700px;
+    }
+    
+    .absolute2 {
+        width: 400px;
+        left: 820px;
+    }
+
+   .img1 {
+    width: 100%;
+    margin-left: 20px;
+   }
+
+   .img2 {
+    width: 100%;
+    margin-left: 20px;
+   }
+
+   .img3 {
+    width: 100%;
+    margin-left: 20px;
+   }
+
+   .img4 {
+    width: 100%;
+    margin-left: 20px;
+   }
+
+   .img5 {
+    width: 100%;
+    margin-left: 20px;
+   }
+
+   .img6 {
+    width: 100%;
+    margin-left: 20px;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+    #greece {
+        width: 1560px;
+    }
+
+    .absolute1 {
+        width: 700px;
+        left: 540px;
+    }
+    
+    .absolute2 {
+        width: 400px;
+        left: 660px;
+    }
+
+    .img1 {
+    width: 100%;
+    }
+    
+    .img2 {
+     width: 100%;
+    }
+    
+    .img3 {
+     width: 100%;
+    }
+    
+    .img4 {
+    width: 100%;
+    }
+    
+    .img5 {
+    width: 100%;
+    }
+    
+    .img6 {
+    width: 100%;
+    }
 }
