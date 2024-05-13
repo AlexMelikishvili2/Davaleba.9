@@ -161,11 +161,30 @@ nav > a {
     left: 1080px;
 }
 
+i {
+    display: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     #greece {
-        width: 1850px;
+        width: 1750px;
     }
 
+    #owl {
+        left: 100px;
+    }
+
+    i {
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+        width: 100%;
+    }
+    
     .absolute1 {
         width: 700px;
         left: 700px;
@@ -209,17 +228,31 @@ nav > a {
 
 @media only screen and (max-width: 480px) {
     #greece {
-        width: 1560px;
+        width: 1450px;
+    }
+
+    i {
+        display: inline-block !important;
+        position: absolute;
+        left: 1260px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .disc {
+        margin-right: 30px;
     }
 
     .absolute1 {
         width: 700px;
-        left: 540px;
+        left: 480px;
     }
     
     .absolute2 {
         width: 400px;
-        left: 660px;
+        left: 600px;
     }
 
     .img1 {
@@ -246,3 +279,5 @@ nav > a {
     width: 100%;
     }
 }
+
+
